@@ -1642,7 +1642,30 @@
           return;
         }
 
-        // Submit to Formsubmit.co
+        // Collect form values for mailto fallback
+        var name = form.querySelector('[name="name"]').value.trim();
+        var email = form.querySelector('[name="email"]').value.trim();
+        var phone = form.querySelector('[name="phone"]').value.trim();
+        var company = form.querySelector('[name="company"]').value.trim();
+        var employees = form.querySelector('[name="employees"]') ? form.querySelector('[name="employees"]').value : '';
+
+        function mailtoFallback() {
+          var subject = encodeURIComponent('Nouveau lead renovation-btp : ' + company);
+          var body = encodeURIComponent(
+            'Nouveau lead depuis le site renovation-btp\n\n' +
+            'Nom : ' + name + '\n' +
+            'Email : ' + email + '\n' +
+            'Telephone : ' + phone + '\n' +
+            'Entreprise : ' + company + '\n' +
+            'Effectif : ' + employees + '\n'
+          );
+          window.location.href = 'mailto:sundaravelselvarajfr@gmail.com?subject=' + subject + '&body=' + body;
+          submitBtn.textContent = 'Merci ! On vous contacte sous 24h.';
+          submitBtn.classList.add('success');
+          statusEl.textContent = 'Votre client email va s\u2019ouvrir. Envoyez le message pour confirmer votre demande.';
+        }
+
+        // Submit to Formsubmit.co (with mailto fallback)
         submitBtn.textContent = 'Envoi en cours...';
         submitBtn.disabled = true;
 
@@ -1657,20 +1680,16 @@
         })
         .then(function(response) { return response.json(); })
         .then(function(data) {
-          if (data.success) {
+          if (data.success === 'true' || data.success === true) {
             submitBtn.textContent = 'Merci ! On vous contacte sous 24h.';
             submitBtn.classList.add('success');
             statusEl.textContent = 'Votre demande a bien \u00e9t\u00e9 envoy\u00e9e. Nous vous recontactons sous 24 heures.';
           } else {
-            submitBtn.textContent = 'R\u00e9servez mon diagnostic gratuit';
-            submitBtn.disabled = false;
-            statusEl.textContent = 'Erreur lors de l\u2019envoi. Veuillez r\u00e9essayer ou nous contacter par t\u00e9l\u00e9phone.';
+            mailtoFallback();
           }
         })
         .catch(function() {
-          submitBtn.textContent = 'R\u00e9servez mon diagnostic gratuit';
-          submitBtn.disabled = false;
-          statusEl.textContent = 'Erreur de connexion. Veuillez r\u00e9essayer ou nous contacter par t\u00e9l\u00e9phone.';
+          mailtoFallback();
         });
       });
     })();
