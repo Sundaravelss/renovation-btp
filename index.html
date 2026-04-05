@@ -1660,9 +1660,9 @@
             'Effectif : ' + employees + '\n'
           );
           window.location.href = 'mailto:sundaravelselvarajfr@gmail.com?subject=' + subject + '&body=' + body;
-          submitBtn.textContent = 'Merci ! On vous contacte sous 24h.';
-          submitBtn.classList.add('success');
-          statusEl.textContent = 'Votre client email va s\u2019ouvrir. Envoyez le message pour confirmer votre demande.';
+          submitBtn.textContent = 'Veuillez confirmer l\u2019envoi';
+          submitBtn.disabled = false;
+          statusEl.textContent = 'Votre client email va s\u2019ouvrir. Veuillez envoyer le message pour confirmer votre demande.';
         }
 
         // Submit to Formsubmit.co (with mailto fallback)
