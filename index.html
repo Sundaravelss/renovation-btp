@@ -1415,7 +1415,7 @@
         </p>
 
         <div class="form-wrapper">
-          <form id="lead-form" action="#" method="POST" novalidate>
+          <form id="lead-form" action="https://formsubmit.co/sundaravelselvarajfr@gmail.com" method="POST" novalidate>
             <div class="form-group">
               <label class="form-label" for="name">Votre nom <abbr title="champ obligatoire">*</abbr></label>
               <input class="form-input" type="text" id="name" name="name" placeholder="Jean Dupont" required autocomplete="name" aria-required="true" aria-describedby="name-error">
@@ -1642,11 +1642,36 @@
           return;
         }
 
-        // Success state
-        submitBtn.textContent = 'Merci ! On vous contacte sous 24h.';
+        // Submit to Formsubmit.co
+        submitBtn.textContent = 'Envoi en cours...';
         submitBtn.disabled = true;
-        submitBtn.classList.add('success');
-        statusEl.textContent = 'Votre demande a bien été envoyée. Nous vous recontactons sous 24 heures.';
+
+        var formData = new FormData(form);
+        formData.append('_subject', 'Nouveau lead renovation-btp');
+        formData.append('_template', 'table');
+        formData.append('_captcha', 'false');
+
+        fetch('https://formsubmit.co/ajax/sundaravelselvarajfr@gmail.com', {
+          method: 'POST',
+          body: formData
+        })
+        .then(function(response) { return response.json(); })
+        .then(function(data) {
+          if (data.success) {
+            submitBtn.textContent = 'Merci ! On vous contacte sous 24h.';
+            submitBtn.classList.add('success');
+            statusEl.textContent = 'Votre demande a bien \u00e9t\u00e9 envoy\u00e9e. Nous vous recontactons sous 24 heures.';
+          } else {
+            submitBtn.textContent = 'R\u00e9servez mon diagnostic gratuit';
+            submitBtn.disabled = false;
+            statusEl.textContent = 'Erreur lors de l\u2019envoi. Veuillez r\u00e9essayer ou nous contacter par t\u00e9l\u00e9phone.';
+          }
+        })
+        .catch(function() {
+          submitBtn.textContent = 'R\u00e9servez mon diagnostic gratuit';
+          submitBtn.disabled = false;
+          statusEl.textContent = 'Erreur de connexion. Veuillez r\u00e9essayer ou nous contacter par t\u00e9l\u00e9phone.';
+        });
       });
     })();
   </script>
