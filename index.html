@@ -877,6 +877,9 @@
     .form-submit.success {
       background: var(--color-success);
     }
+    .form-submit.info {
+      background: var(--color-primary);
+    }
     .form-trust {
       text-align: center; margin-top: var(--space-4);
       font-size: var(--text-xs); color: #c7d2fe;
@@ -1660,9 +1663,16 @@
             'Effectif : ' + employees + '\n'
           );
           window.location.href = 'mailto:sundaravelselvarajfr@gmail.com?subject=' + subject + '&body=' + body;
-          submitBtn.textContent = 'Veuillez confirmer l\u2019envoi';
-          submitBtn.disabled = false;
-          statusEl.textContent = 'Votre client email va s\u2019ouvrir. Veuillez envoyer le message pour confirmer votre demande.';
+          submitBtn.textContent = '\ud83d\udce7 V\u00e9rifiez votre bo\u00eete mail';
+          submitBtn.classList.add('info');
+          submitBtn.disabled = true;
+          statusEl.innerHTML = 'Votre client email devrait s\u2019ouvrir avec les informations pr\u00e9-remplies. Envoyez le message pour confirmer votre demande.<br><small>Pas de client email\u00a0? Appelez-nous au 01\u00a076\u00a044\u00a012\u00a034 ou \u00e9crivez \u00e0 <a href="mailto:sundaravelselvarajfr@gmail.com" style="color:#c7d2fe">sundaravelselvarajfr@gmail.com</a></small>';
+          // Retry mechanism: re-enable button after 10s
+          setTimeout(function() {
+            submitBtn.textContent = 'R\u00e9essayer';
+            submitBtn.classList.remove('info');
+            submitBtn.disabled = false;
+          }, 10000);
         }
 
         // Submit to Formsubmit.co (with mailto fallback)
