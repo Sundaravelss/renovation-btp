@@ -1,0 +1,12 @@
+{
+  "prompt": "3D stylized Pixar/Disney character portrait of a Agent Service Client / Care man, French (light-tan skin, short wavy brown hair, clean-shaven) features stylized with expressive oversized eyes, soft subsurface scattering skin, glossy hair, wearing soft teal polo shirt, thin over-ear headset microphone in a cartoon-stylized interpretation. bright genuine smile, warm attentive eyes, reassuring vibe. Teal-to-emerald gradient background (#0a6b5c to #0d3a33), soft volumetric rim light, Octane render, 4k, cinematic character design sheet. Square 1:1 composition, friendly broad smile.",
+  "model": "gpt-image-2",
+  "size": "1024x1024",
+  "quality": "high",
+  "n": 1,
+  "index": 1,
+  "cost_usd": 0.08,
+  "prompt_hash": "d198f0952f2d",
+  "generated_at": "2026-05-11T22:06:37.335842+00:00",
+  "revised_prompt": null
+}

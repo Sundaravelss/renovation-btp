@@ -1,0 +1,12 @@
+{
+  "prompt": "Photorealistic studio portrait of a 30-year-old man, French, light-tan skin, short wavy brown hair, clean-shaven. Working as Agent Service Client / Care in a modern Paris office. Bright reassuring smile. Wearing soft teal polo, thin over-ear headset mic. Warm natural window light (soft overhead key + gentle fill), soft beige #ede3d2 backdrop, shallow depth of field, 85mm f/1.8, skin texture preserved (pores, fine lines, natural freckles if appropriate). Editorial magazine quality. No text, no logos, no watermarks. Vertical 9:16 composition, subject centered, upper-body framing.",
+  "model": "gpt-image-2",
+  "size": "1024x1792",
+  "quality": "high",
+  "n": 1,
+  "index": 1,
+  "cost_usd": 0.12,
+  "prompt_hash": "95e5b1871d8c",
+  "generated_at": "2026-05-11T23:12:37.464627+00:00",
+  "revised_prompt": null
+}

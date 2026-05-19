@@ -1,0 +1,12 @@
+{
+  "prompt": "Photorealistic studio portrait of a 35-year-old man, French (pale skin, dark brown short neat hair, thin black-frame glasses), working as Agent Comptable in a modern Paris office. precise focused neutral-to-warm expression, slight smile. Wearing charcoal slim-fit suit, light-grey shirt, no tie. Warm natural window light, soft beige backdrop, shallow depth of field, 85mm lens, skin texture preserved (pores, fine detail, freckles if appropriate), editorial quality, no text, no logos, no watermarks. Vertical 9:16 composition.",
+  "model": "gpt-image-2",
+  "size": "1024x1792",
+  "quality": "high",
+  "n": 1,
+  "index": 1,
+  "cost_usd": 0.12,
+  "prompt_hash": "068ca5174112",
+  "generated_at": "2026-05-11T21:43:51.354313+00:00",
+  "revised_prompt": null
+}

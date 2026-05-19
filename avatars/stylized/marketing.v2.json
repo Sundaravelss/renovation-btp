@@ -1,0 +1,12 @@
+{
+  "prompt": "Pixar/Disney-style 3D animated character portrait, lively and friendly mascot aesthetic inspired by Pixar hero characters. Stylized 34-year-old woman, Northern French, fair skin, chestnut shoulder-length hair, subtle freckles features as cartoon 3D character. Large expressive eyes with sharp catchlight reflections (two specular highlights per eye), detailed iris, thick eyelashes. Soft freckled cheeks, warm genuine smile showing teeth. Glossy stylized hair with strand highlights and natural flyaways. Wearing burgundy tailored blazer, gold chain stylized in 3D. Role: Agent Marketing. strategic composed smile. Playful confident expression, slight head tilt. Three-point studio lighting with warm key and cool rim, subsurface scattering skin, Pixar RenderMan / Octane 4K. Solid cool purple-violet background (#8c70d6 flat color, NO gradient, NO vignette). Square composition, upper-body, subject engaging camera with a lively friendly vibe.",
+  "model": "gpt-image-2",
+  "size": "1024x1024",
+  "quality": "high",
+  "n": 1,
+  "index": 1,
+  "cost_usd": 0.08,
+  "prompt_hash": "2b62e457d8bd",
+  "generated_at": "2026-05-11T23:35:43.722717+00:00",
+  "revised_prompt": null
+}

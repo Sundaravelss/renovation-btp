@@ -1,0 +1,12 @@
+{
+  "prompt": "Photorealistic cinematic portrait of a 38-year-old man, French, light skin, salt-and-pepper short hair, short groomed beard. Working as Agent Commercial Terrain (closer B2B). Calm trustworthy smile. Wearing midnight-blue two-piece suit, navy tie. Dramatic side rim light (warm amber key from 3 o'clock), deep cool shadows on opposite side, moody charcoal-to-black gradient backdrop, Sigma 85mm f/1.4, shallow DoF, skin detail preserved, editorial cinematic quality, film still aesthetic, Roger Deakins lighting inspiration. No text, no logos. Vertical 9:16 composition, upper-body framing, subject slightly off-center.",
+  "model": "gpt-image-2",
+  "size": "1024x1792",
+  "quality": "high",
+  "n": 1,
+  "index": 1,
+  "cost_usd": 0.12,
+  "prompt_hash": "8e4e183fe4de",
+  "generated_at": "2026-05-11T22:59:04.817773+00:00",
+  "revised_prompt": null
+}

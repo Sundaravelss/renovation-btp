@@ -1,0 +1,12 @@
+{
+  "prompt": "Highly realistic 3D character portrait, professional corporate style, NOT cartoon, NOT Pixar-cute. 30-year-old woman, Parisian French light olive skin brown wavy hair, realistic human proportions. Role: Agent Commercial (SDR / prospection). Energetic warm smile. Wearing a fitted navy blazer over cream silk blouse. MetaHuman-quality skin: subsurface scattering, pore detail, realistic hair simulation. Octane / Unreal Engine 5.4 render, 4K, cinema lighting. Background: circular radial gradient, cool teal-cyan center (#2a5a6e at center) fading through navy to near-black edges (#05080c), strong grey-black vignette. Subtle cool-blue rim light from above-right. Square 1:1 composition, centered upper-body framing, premium corporate headshot. High-fashion 3D aesthetic, think Weta Digital digital-double, not animation studio mascot.",
+  "model": "gpt-image-2",
+  "size": "1024x1024",
+  "quality": "high",
+  "n": 1,
+  "index": 1,
+  "cost_usd": 0.08,
+  "prompt_hash": "4e40c0beaf66",
+  "generated_at": "2026-05-11T23:13:40.972270+00:00",
+  "revised_prompt": null
+}

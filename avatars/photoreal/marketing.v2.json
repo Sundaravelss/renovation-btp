@@ -1,0 +1,12 @@
+{
+  "prompt": "Photorealistic cinematic portrait of a 34-year-old woman, Northern French, fair skin, chestnut shoulder-length hair, subtle freckles. Working as Agent Marketing. strategic composed smile. Wearing burgundy tailored blazer, gold chain. Dramatic side rim light (warm amber key from 3 o'clock), deep cool shadows on opposite side, moody charcoal-to-black gradient backdrop, Sigma 85mm f/1.4, shallow DoF, skin detail preserved, editorial cinematic quality, film still aesthetic, Roger Deakins lighting inspiration. No text, no logos. Vertical 9:16 composition, upper-body framing, subject slightly off-center.",
+  "model": "gpt-image-2",
+  "size": "1024x1792",
+  "quality": "high",
+  "n": 1,
+  "index": 1,
+  "cost_usd": 0.12,
+  "prompt_hash": "00f27c7945a7",
+  "generated_at": "2026-05-11T22:57:25.961193+00:00",
+  "revised_prompt": null
+}

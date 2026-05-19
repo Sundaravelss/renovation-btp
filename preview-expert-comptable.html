@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hero Variants Preview — Expert-Comptable | GST-1889</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #0a0a0f; color: #e2e8f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; min-height: 100vh; }
+
+  .header {
+    padding: 24px 32px;
+    border-bottom: 1px solid #1e293b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #0f172a;
+  }
+  .header h1 { font-size: 18px; font-weight: 600; color: #f1f5f9; }
+  .header p { font-size: 13px; color: #64748b; margin-top: 4px; }
+  .badge {
+    background: #1d4ed8;
+    color: #bfdbfe;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 999px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1px;
+    background: #1e293b;
+    padding: 1px;
+  }
+
+  @media (max-width: 1200px) {
+    .grid { grid-template-columns: repeat(3, 1fr); }
+  }
+  @media (max-width: 768px) {
+    .grid { grid-template-columns: 1fr; }
+  }
+
+  .variant-card {
+    background: #0f172a;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .variant-card video {
+    width: 100%;
+    aspect-ratio: 16/9;
+    display: block;
+    background: #000;
+  }
+
+  .variant-info {
+    padding: 14px 16px;
+    border-top: 1px solid #1e293b;
+  }
+
+  .variant-label {
+    font-size: 13px;
+    font-weight: 700;
+    color: #f1f5f9;
+    margin-bottom: 4px;
+  }
+
+  .variant-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 8px;
+  }
+
+  .meta-tag {
+    font-size: 11px;
+    color: #94a3b8;
+    background: #1e293b;
+    padding: 3px 8px;
+    border-radius: 4px;
+  }
+
+  .meta-tag.size { color: #86efac; }
+  .meta-tag.poster { color: #fcd34d; }
+
+  .select-btn {
+    margin-top: 12px;
+    width: 100%;
+    padding: 8px;
+    background: transparent;
+    border: 1px solid #334155;
+    color: #94a3b8;
+    font-size: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.15s;
+    font-family: inherit;
+  }
+  .select-btn:hover { background: #1e293b; color: #f1f5f9; border-color: #475569; }
+  .select-btn.selected { background: #1d4ed8; color: #fff; border-color: #1d4ed8; }
+
+  .footer {
+    padding: 24px 32px;
+    border-top: 1px solid #1e293b;
+    background: #0f172a;
+    font-size: 12px;
+    color: #475569;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer strong { color: #94a3b8; }
+
+  #selection-summary {
+    padding: 16px 32px;
+    background: #0f1f3d;
+    border-bottom: 1px solid #1e3a8a;
+    font-size: 13px;
+    color: #93c5fd;
+    display: none;
+  }
+  #selection-summary.visible { display: block; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div>
+    <h1>Hero Video Variants — Expert-Comptable</h1>
+    <p>GST-1889 · Phase 3 · 5 variants generated · Sora-2 1080p · Stakeholder selection</p>
+  </div>
+  <span class="badge">In Review</span>
+</div>
+
+<div id="selection-summary" class="visible">
+  ▶ Click "Select this variant" on any card below to mark your preferred hero video. Hover video to play.
+</div>
+
+<div class="grid">
+
+  <!-- V1 -->
+  <div class="variant-card">
+    <video
+      src="/videos/hero-expert-comptable-v1.mp4"
+      poster="/images/posters/hero-expert-comptable-v1.jpg"
+      muted
+      loop
+      preload="metadata"
+      onmouseenter="this.play()"
+      onmouseleave="this.pause()"
+    ></video>
+    <div class="variant-info">
+      <div class="variant-label">Variant 1 — V1</div>
+      <p style="font-size:12px;color:#64748b;margin-top:4px;">Lumière froide, bureau premium, ambiance professionnelle</p>
+      <div class="variant-meta">
+        <span class="meta-tag size">5.63 MB</span>
+        <span class="meta-tag poster">Poster: 76.6 KB</span>
+        <span class="meta-tag">1920×1080</span>
+      </div>
+      <button class="select-btn" onclick="selectVariant(this, 'V1')">Select this variant</button>
+    </div>
+  </div>
+
+  <!-- V2 -->
+  <div class="variant-card">
+    <video
+      src="/videos/hero-expert-comptable-v2.mp4"
+      poster="/images/posters/hero-expert-comptable-v2.jpg"
+      muted
+      loop
+      preload="metadata"
+      onmouseenter="this.play()"
+      onmouseleave="this.pause()"
+    ></video>
+    <div class="variant-info">
+      <div class="variant-label">Variant 2 — V2</div>
+      <p style="font-size:12px;color:#64748b;margin-top:4px;">Data flows, graphiques financiers, dynamisme analytique</p>
+      <div class="variant-meta">
+        <span class="meta-tag size">2.99 MB</span>
+        <span class="meta-tag poster">Poster: 53.5 KB</span>
+        <span class="meta-tag">1920×1080</span>
+      </div>
+      <button class="select-btn" onclick="selectVariant(this, 'V2')">Select this variant</button>
+    </div>
+  </div>
+
+  <!-- V3 -->
+  <div class="variant-card">
+    <video
+      src="/videos/hero-expert-comptable-v3.mp4"
+      poster="/images/posters/hero-expert-comptable-v3.jpg"
+      muted
+      loop
+      preload="metadata"
+      onmouseenter="this.play()"
+      onmouseleave="this.pause()"
+    ></video>
+    <div class="variant-info">
+      <div class="variant-label">Variant 3 — V3</div>
+      <p style="font-size:12px;color:#64748b;margin-top:4px;">Texture marine abstraite, sereine, premium</p>
+      <div class="variant-meta">
+        <span class="meta-tag size">6.10 MB</span>
+        <span class="meta-tag poster">Poster: 63.2 KB</span>
+        <span class="meta-tag">1920×1080</span>
+      </div>
+      <button class="select-btn" onclick="selectVariant(this, 'V3')">Select this variant</button>
+    </div>
+  </div>
+
+  <!-- V4 -->
+  <div class="variant-card">
+    <video
+      src="/videos/hero-expert-comptable-v4.mp4"
+      poster="/images/posters/hero-expert-comptable-v4.jpg"
+      muted
+      loop
+      preload="metadata"
+      onmouseenter="this.play()"
+      onmouseleave="this.pause()"
+    ></video>
+    <div class="variant-info">
+      <div class="variant-label">Variant 4 — V4</div>
+      <p style="font-size:12px;color:#64748b;margin-top:4px;">Architecture géométrique dorée, luxe discret</p>
+      <div class="variant-meta">
+        <span class="meta-tag size">3.99 MB</span>
+        <span class="meta-tag poster">Poster: 49.6 KB</span>
+        <span class="meta-tag">1920×1080</span>
+      </div>
+      <button class="select-btn" onclick="selectVariant(this, 'V4')">Select this variant</button>
+    </div>
+  </div>
+
+  <!-- V5 -->
+  <div class="variant-card">
+    <video
+      src="/videos/hero-expert-comptable-v5.mp4"
+      poster="/images/posters/hero-expert-comptable-v5.jpg"
+      muted
+      loop
+      preload="metadata"
+      onmouseenter="this.play()"
+      onmouseleave="this.pause()"
+    ></video>
+    <div class="variant-info">
+      <div class="variant-label">Variant 5 — V5</div>
+      <p style="font-size:12px;color:#64748b;margin-top:4px;">Écrans de données flottants, confiance numérique</p>
+      <div class="variant-meta">
+        <span class="meta-tag size">6.25 MB</span>
+        <span class="meta-tag poster">Poster: 105.5 KB</span>
+        <span class="meta-tag">1920×1080</span>
+      </div>
+      <button class="select-btn" onclick="selectVariant(this, 'V5')">Select this variant</button>
+    </div>
+  </div>
+
+</div>
+
+<div class="footer">
+  <span>Generated: 2026-05-11 · Sora-2 · 1920×1080 · Muted loop · Poster frames extracted · GST-1889</span>
+  <span><strong>Hover</strong> to play · <strong>Click</strong> to select · Total: ~24.96 MB across 5 variants</span>
+</div>
+
+<script>
+let selectedBtn = null;
+
+function selectVariant(btn, label) {
+  if (selectedBtn) selectedBtn.classList.remove('selected');
+  selectedBtn = btn;
+  btn.classList.add('selected');
+  btn.textContent = '✓ Selected: ' + label;
+  document.getElementById('selection-summary').textContent =
+    '✓ Selected: ' + label + ' — Communicate your choice to the board via GST-1889.';
+}
+</script>
+
+</body>
+</html>
