@@ -1,0 +1,12 @@
+{
+  "prompt": "3D stylized Pixar/Disney character portrait of a Agent Comptable man, French (pale skin, dark brown short neat hair, thin black-frame glasses) features stylized with expressive oversized eyes, soft subsurface scattering skin, glossy hair, wearing charcoal slim-fit suit, light-grey shirt, no tie in a cartoon-stylized interpretation. precise focused neutral-to-warm expression, slight smile. Teal-to-emerald gradient background (#0a6b5c to #0d3a33), soft volumetric rim light, Octane render, 4k, cinematic character design sheet. Square 1:1 composition, friendly broad smile.",
+  "model": "gpt-image-2",
+  "size": "1024x1024",
+  "quality": "high",
+  "n": 1,
+  "index": 1,
+  "cost_usd": 0.08,
+  "prompt_hash": "1937390bf781",
+  "generated_at": "2026-05-11T21:45:24.467286+00:00",
+  "revised_prompt": null
+}

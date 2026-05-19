@@ -1,0 +1,12 @@
+{
+  "prompt": "Photorealistic studio portrait of a 31-year-old woman, French (warm olive skin, dark brown hair in soft low bun), working as Assistant(e) Personnel(le) in a modern Paris office. friendly approachable smile, open posture, kind eyes. Wearing soft beige knit cardigan over white tee. Warm natural window light, soft beige backdrop, shallow depth of field, 85mm lens, skin texture preserved (pores, fine detail, freckles if appropriate), editorial quality, no text, no logos, no watermarks. Vertical 9:16 composition.",
+  "model": "gpt-image-2",
+  "size": "1024x1792",
+  "quality": "high",
+  "n": 1,
+  "index": 1,
+  "cost_usd": 0.12,
+  "prompt_hash": "8a1a2c962144",
+  "generated_at": "2026-05-11T21:32:33.496797+00:00",
+  "revised_prompt": null
+}

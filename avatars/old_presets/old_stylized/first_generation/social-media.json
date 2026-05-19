@@ -1,0 +1,12 @@
+{
+  "prompt": "3D stylized Pixar/Disney character portrait of a Agent R\u00e9seaux Sociaux man, Southern French (Mediterranean features, dark tousled hair, short stubble) features stylized with expressive oversized eyes, soft subsurface scattering skin, glossy hair, wearing modern charcoal crewneck with subtle textured weave in a cartoon-stylized interpretation. creative playful smirk, one eyebrow slightly raised, relaxed shoulders. Teal-to-emerald gradient background (#0a6b5c to #0d3a33), soft volumetric rim light, Octane render, 4k, cinematic character design sheet. Square 1:1 composition, friendly broad smile.",
+  "model": "gpt-image-2",
+  "size": "1024x1024",
+  "quality": "high",
+  "n": 1,
+  "index": 1,
+  "cost_usd": 0.08,
+  "prompt_hash": "44804c1045b4",
+  "generated_at": "2026-05-11T22:11:48.361399+00:00",
+  "revised_prompt": null
+}

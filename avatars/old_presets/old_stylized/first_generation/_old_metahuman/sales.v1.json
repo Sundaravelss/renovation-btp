@@ -1,0 +1,12 @@
+{
+  "prompt": "Highly realistic 3D character portrait, professional corporate style, NOT cartoonish, NOT Pixar-child-like. Portrait of a 30-year-old woman, Parisian French light olive skin brown wavy hair features rendered with realistic proportions (NOT oversized cartoon eyes). Role: Agent Commercial (SDR / prospection). Energetic warm smile. Wearing a fitted navy blazer over cream silk blouse. Hyperrealistic skin with subsurface scattering, detailed pores, individual hair strands, micro-fabric texture. Octane render, Unreal Engine 5.4 MetaHuman quality, 4K, cinema-grade lighting. Background: circular radial gradient, warm amber center (#d4934a at center) fading through deep burgundy to near-black edges (#0f0a08), heavy dark vignette on all corners. Soft rim light on subject from above-left. Square 1:1 composition, centered upper-body framing, professional corporate headshot stance.",
+  "model": "gpt-image-2",
+  "size": "1024x1024",
+  "quality": "high",
+  "n": 1,
+  "index": 1,
+  "cost_usd": 0.08,
+  "prompt_hash": "2a46cfc39a5e",
+  "generated_at": "2026-05-11T23:03:40.265588+00:00",
+  "revised_prompt": null
+}

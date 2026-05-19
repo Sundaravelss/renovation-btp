@@ -1,0 +1,12 @@
+{
+  "prompt": "3D stylized Pixar/Disney character portrait of a Agent Recrutement / RH woman, French (medium skin, auburn long straight hair, natural makeup) features stylized with expressive oversized eyes, soft subsurface scattering skin, glossy hair, wearing warm rust-orange silk blouse, subtle pearl earrings in a cartoon-stylized interpretation. empathetic warm smile, open attentive gaze, gentle head tilt. Teal-to-emerald gradient background (#0a6b5c to #0d3a33), soft volumetric rim light, Octane render, 4k, cinematic character design sheet. Square 1:1 composition, friendly broad smile.",
+  "model": "gpt-image-2",
+  "size": "1024x1024",
+  "quality": "high",
+  "n": 1,
+  "index": 1,
+  "cost_usd": 0.08,
+  "prompt_hash": "3fd8a3910b77",
+  "generated_at": "2026-05-11T22:04:59.861374+00:00",
+  "revised_prompt": null
+}

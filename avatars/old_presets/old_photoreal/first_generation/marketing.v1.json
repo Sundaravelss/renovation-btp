@@ -1,0 +1,12 @@
+{
+  "prompt": "Photorealistic studio portrait of a 34-year-old woman, Northern French, fair skin, chestnut shoulder-length hair, subtle freckles. Working as Agent Marketing in a modern Paris office. strategic composed smile. Wearing burgundy tailored blazer, gold chain. Warm natural window light (soft overhead key + gentle fill), soft beige #ede3d2 backdrop, shallow depth of field, 85mm f/1.8, skin texture preserved (pores, fine lines, natural freckles if appropriate). Editorial magazine quality. No text, no logos, no watermarks. Vertical 9:16 composition, subject centered, upper-body framing.",
+  "model": "gpt-image-2",
+  "size": "1024x1792",
+  "quality": "high",
+  "n": 1,
+  "index": 1,
+  "cost_usd": 0.12,
+  "prompt_hash": "557fc9535f88",
+  "generated_at": "2026-05-11T22:53:00.921302+00:00",
+  "revised_prompt": null
+}

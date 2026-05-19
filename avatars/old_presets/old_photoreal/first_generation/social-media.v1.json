@@ -1,0 +1,12 @@
+{
+  "prompt": "Photorealistic studio portrait of a 28-year-old man, Southern French Mediterranean, dark tousled hair, short stubble. Working as Agent R\u00e9seaux Sociaux in a modern Paris office. Creative playful smirk. Wearing a charcoal crewneck with subtle texture. Warm natural window light (soft overhead key + gentle fill), soft beige #ede3d2 backdrop, shallow depth of field, 85mm f/1.8, skin texture preserved (pores, fine lines, natural freckles if appropriate). Editorial magazine quality. No text, no logos, no watermarks. Vertical 9:16 composition, subject centered, upper-body framing.",
+  "model": "gpt-image-2",
+  "size": "1024x1792",
+  "quality": "high",
+  "n": 1,
+  "index": 1,
+  "cost_usd": 0.12,
+  "prompt_hash": "9a62b00745fe",
+  "generated_at": "2026-05-11T23:18:18.804998+00:00",
+  "revised_prompt": null
+}

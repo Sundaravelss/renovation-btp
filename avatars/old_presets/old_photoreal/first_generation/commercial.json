@@ -1,0 +1,12 @@
+{
+  "prompt": "Photorealistic studio portrait of a 38-year-old man, French (light skin, salt-and-pepper short-cropped hair, well-groomed short beard), working as Agent Commercial Terrain (closer B2B) in a modern Paris office. calm trustworthy smile, steady confident gaze, polished professional. Wearing sharp midnight-blue two-piece suit, crisp white shirt, navy tie. Warm natural window light, soft beige backdrop, shallow depth of field, 85mm lens, skin texture preserved (pores, fine detail, freckles if appropriate), editorial quality, no text, no logos, no watermarks. Vertical 9:16 composition.",
+  "model": "gpt-image-2",
+  "size": "1024x1792",
+  "quality": "high",
+  "n": 1,
+  "index": 1,
+  "cost_usd": 0.12,
+  "prompt_hash": "b44e64c73f66",
+  "generated_at": "2026-05-11T21:39:21.092336+00:00",
+  "revised_prompt": null
+}

@@ -1,0 +1,12 @@
+{
+  "prompt": "Pixar/Disney-style 3D animated character portrait, lively and friendly mascot aesthetic inspired by Pixar hero characters. Stylized 38-year-old man, French, light skin, salt-and-pepper short hair, short groomed beard features interpreted as a cartoon 3D character. Large expressive eyes with sharp catchlight highlights (two specular dots per eye, one from key light and one from fill), detailed iris with radial pattern, thick natural eyelashes. Soft cheeks with visible freckles, smooth rim-light on nose, subtle dimples on smile. Warm broad genuine smile showing clean white teeth. Glossy realistic hair with individual strand highlights and soft flyaways. Wearing midnight-blue two-piece suit with navy tie stylized in 3D. Role: Agent Commercial Terrain (closer B2B). Calm trustworthy smile. Soft studio three-point lighting: warm key from upper-left, cool rim from upper-right, gentle bounce fill. Subsurface scattering on skin. Octane render, Pixar RenderMan quality, 4K, cinematic, character design sheet aesthetic. Solid warm teal background hex #0f7b6a flat color, NO gradient, NO vignette. Centered square composition, upper-body framing, subject looking at camera with lively friendly expression.",
+  "model": "gpt-image-2",
+  "size": "1024x1024",
+  "quality": "high",
+  "n": 1,
+  "index": 1,
+  "cost_usd": 0.08,
+  "prompt_hash": "2989165688c8",
+  "generated_at": "2026-05-11T23:28:57.728212+00:00",
+  "revised_prompt": null
+}

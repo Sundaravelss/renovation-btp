@@ -1,0 +1,12 @@
+{
+  "prompt": "3D stylized Pixar/Disney character portrait of a Assistant(e) Personnel(le) woman, French (warm olive skin, dark brown hair in soft low bun) features stylized with expressive oversized eyes, soft subsurface scattering skin, glossy hair, wearing soft beige knit cardigan over white tee in a cartoon-stylized interpretation. friendly approachable smile, open posture, kind eyes. Teal-to-emerald gradient background (#0a6b5c to #0d3a33), soft volumetric rim light, Octane render, 4k, cinematic character design sheet. Square 1:1 composition, friendly broad smile.",
+  "model": "gpt-image-2",
+  "size": "1024x1024",
+  "quality": "high",
+  "n": 1,
+  "index": 1,
+  "cost_usd": 0.08,
+  "prompt_hash": "8c50d583e302",
+  "generated_at": "2026-05-11T21:36:41.219121+00:00",
+  "revised_prompt": null
+}

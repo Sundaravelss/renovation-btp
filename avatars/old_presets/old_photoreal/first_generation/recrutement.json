@@ -1,0 +1,12 @@
+{
+  "prompt": "Photorealistic studio portrait of a 33-year-old woman, French (medium skin, auburn long straight hair, natural makeup), working as Agent Recrutement / RH in a modern Paris office. empathetic warm smile, open attentive gaze, gentle head tilt. Wearing warm rust-orange silk blouse, subtle pearl earrings. Warm natural window light, soft beige backdrop, shallow depth of field, 85mm lens, skin texture preserved (pores, fine detail, freckles if appropriate), editorial quality, no text, no logos, no watermarks. Vertical 9:16 composition.",
+  "model": "gpt-image-2",
+  "size": "1024x1792",
+  "quality": "high",
+  "n": 1,
+  "index": 1,
+  "cost_usd": 0.12,
+  "prompt_hash": "989065da1737",
+  "generated_at": "2026-05-11T22:00:44.547619+00:00",
+  "revised_prompt": null
+}
